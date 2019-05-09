@@ -1,8 +1,9 @@
 # alias connexion vpn
 alias connexionvpn='cd /etc/openvpn/confOpenvpnSMS; sudo openvpn SSLConcentratorSMS.ovpn'
 
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-alias lr='ls -lrt'
+l='ls -lah'
+la='ls -lAh'
+ll='ls -lh'
+ls='ls --color=tty'
+lsa='ls -lah'
 alias fx='nohup firefox&'

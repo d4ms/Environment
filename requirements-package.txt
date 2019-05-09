@@ -1,0 +1,5 @@
+cntlm
+terminator
+python-pip
+zsh
+fonts-powerline

@@ -1,11 +1,14 @@
-echo "Installation terminator"
-sudo apt-get install terminator
+#!/bin/bash
 
-echo "Installation zsh"
-sudo apt-get install zsh
+echo "Installation package"
+tail requirements-package.txt | while read packageName
+do
+	echo "Installation de ${packageName}"
+	sudo apt-get install ${packageName}
+done
 
-echo "Installation oh-my-zsh"
+echo "Installation de oh-my-zsh"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-echo "Installation fonts-powerline"
-sudo apt-get install fonts-powerline
+echo "Installation modules python"
+pip install -r requirements.txt

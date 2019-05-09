@@ -1,0 +1,37 @@
+# Installation VM
+# 1. Mise à jour de la conf apt
+```
+sudo vim /etc/apt/apt.conf
+```
+
+# 2. Récupération de l'environnement
+```
+git clone https://github.com/d4ms/Environment.git
+```
+
+# 3. Installation l'environnement
+```
+cd Environment
+./install_env.sh
+```
+
+# 4. Mise à jour de la conf CNTLM
+
+# 5. Installation mate
+sudo apt-get install ubuntu-mate-core ubuntu-mate-desktop
+-> Mettre en FR
+-> Tableau de bord : Traditionnel
+-> Theme : Ambiant-Mate-Dark
+
+# 6. Installation Eclipse
+eclipse
+https://www.eclipse.org/downloads/
+Installation personnalisée
+Installation du marketplace via Help>Install New Software
+Plugin eclipse
+- RED
+- GitFlow Nightly ou Egit
+- Jenkins Editor
+- PyDev
+- Markdown Text Editor
+- YEdit

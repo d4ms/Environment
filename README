@@ -36,4 +36,15 @@ Plugin eclipse
 - Markdown Text Editor
 - YEdit
 
-# 7. Ajout du Gecodriver
+# 7. Installation Atom
+https://atom.io/
+Package atom
+- atom ide ui
+- autocomplete robotframework
+- hyperclick
+- hyperclick robotframework
+- ide python
+- language jenkinsfile
+- language robotframework
+
+# 8. Ajout du Gecodriver

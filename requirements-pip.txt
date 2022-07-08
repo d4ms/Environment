@@ -82,7 +82,7 @@ six==1.11.0
 snowballstemmer==1.2.1
 Sphinx==1.8.2
 sphinxcontrib-websupport==1.1.0
-suds==0.4
+suds==1.0.0
 texttable==0.9.1
 typing==3.6.6
 uptime==3.0.1
